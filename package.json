@@ -1,0 +1,22 @@
+{
+  "name": "nonhk",
+  "version": "0.1.0",
+  "description": "Block NHK.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no-nhk/nonhk.git"
+  },
+  "author": "nonhk <blocknhknow@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/no-nhk/nonhk/issues"
+  },
+  "homepage": "https://github.com/no-nhk/nonhk#readme",
+  "devDependencies": {
+    "eslint": "6.8.0"
+  }
+}
