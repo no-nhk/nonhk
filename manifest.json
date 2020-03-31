@@ -1,7 +1,7 @@
 {
   "name": "nonhk",
   "version": "0.1.0",
-  "description": "Block everything from NHK.",
+  "description": "Block NHK now.",
   "manifest_version": 2,
   "permissions": [
     "webRequest",
@@ -12,5 +12,11 @@
     "scripts": [
       "background.js"
     ]
+  },
+  "icons": {
+    "16": "images/nonhk-icon-16.png",
+    "32": "images/nonhk-icon-32.png",
+    "48": "images/nonhk-icon-48.png",
+    "128": "images/nonhk-icon-128.png"
   }
 }
