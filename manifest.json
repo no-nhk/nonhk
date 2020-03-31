@@ -1,0 +1,16 @@
+{
+  "name": "nonhk",
+  "version": "0.1.0",
+  "description": "Block everything from NHK.",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://plus.nhk.jp/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
